@@ -1,0 +1,42 @@
+@import './../../colors.scss';
+
+.change-article-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: transparent;
+    border: none;
+    
+    h3 {
+        transition: color 0.1s;
+    }
+
+    .button-image {
+        img {
+            height: 24px;
+            width: 24px;
+        }
+    }
+
+    &:hover {
+        h3 {
+            color: $cta-blue-text;
+        }
+    }
+
+    &.aside {
+        h3 {
+            order: 1;
+        }
+
+        .button-image {
+            order: 2;
+
+            img {
+                transform: rotateZ(90);
+            }
+        }
+    }
+}
+

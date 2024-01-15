@@ -1,0 +1,20 @@
+.select-article-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px;
+    box-shadow: 0px 2px 10px 0px rgba(67, 96, 124, 0.25);
+    border-radius: 5px;
+    
+    .container {
+        display: flex;
+        width: 100%;
+        padding: 0px 20px;
+        
+        &.aside {
+            justify-content: end;
+        }
+    }
+}
