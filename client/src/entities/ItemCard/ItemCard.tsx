@@ -1,13 +1,13 @@
 import React from 'react';
 import "./item-card.scss";
-
+import main_img from './../../images/cakes/main_image.jpg';
 
 const ItemCard = () => {
 
 
     return (
         <div className='card'>
-            <img className='cake-photo' src={require('./../../images/cakes/main_image.jpg')} alt="#" />
+            <img className='cake-photo' src={main_img} alt="#" />
 
             <div className='info-block'>
                 <h3 className="price">520грн</h3>

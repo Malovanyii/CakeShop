@@ -7,12 +7,15 @@ import SelectAnotherArticleCard from "./entities/SelectAnotherArticleCard/Select
 // import CustomButton from './shared/CustomButton/CustomButton';
 import Header from "./widgets/Header/Header";
 import Footer from "./widgets/Footer/Footer";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
 	return (
 		<div className="app">
 			<Header />
-
+			<Routes>
+				<Route />
+			</Routes>
 			<div className="cards">
 				<ItemCard></ItemCard>
 				<BakerCard></BakerCard>

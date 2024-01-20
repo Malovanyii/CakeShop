@@ -1,14 +1,14 @@
 import React from 'react';
 import "./baker-card.scss";
 import CustomLabel from '../../shared/CustomLabel/CustomLabel';
+import baker_img from './../../images/bakers/baker-bg.jpg';
 
-
-const BakerCard = (props: {styles?: string}) => {
-    const {styles} = props;
+const BakerCard = (props: { styles?: string }) => {
+    const { styles } = props;
 
     return (
         <div className={`baker_card ${styles ? styles : ''}`}>
-            <img src={require('./../../images/bakers/baker-bg.jpg')} alt="#" />
+            <img src={baker_img} alt="#" />
             <div className="describe-block">
                 <div className="fio-block">
                     <h3>Інна Пономаренко</h3>
